@@ -162,9 +162,9 @@ header .header {
   gap: 20px;
 }
 
-header .logo .logoImg {
-  width: 100%;
+header .logo .logoImg img {
   max-width: 220px;
+  width: 100%;
 }
 
 header nav {
@@ -558,6 +558,12 @@ header .main .itemImg img {
   margin: 5px 0px;
 }
 
+.sale .buy .text img {
+  max-width: 32px;
+  height: auto;
+  width: 100%;
+}
+
 .sale .title {
   text-align: center;
   color: white;
@@ -647,6 +653,12 @@ footer .footer {
   gap: 10px;
 }
 
+footer .footer .logo img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
 footer .footer .copyright {
   color: white;
 }
@@ -655,6 +667,12 @@ footer .footer .social {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+footer .footer .social img {
+  max-width: 64px;
+  width: 100%;
+  height: auto;
 }
 
 footer .footer .social .telegram {
@@ -666,12 +684,6 @@ footer .footer .social a {
   padding: 10px 12px;
   border-radius: 100px;
   transition: all 0.3s;
-}
-
-footer .footer .social a img {
-  max-width: 64px;
-  width: 100%;
-  height: auto;
 }
 
 footer .footer .social a:hover {
