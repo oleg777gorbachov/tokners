@@ -162,9 +162,9 @@ header .header {
   gap: 20px;
 }
 
-header .logo .logoImg img {
-  max-width: 220px;
+header .logo .logoImg {
   width: 100%;
+  max-width: 220px;
 }
 
 header nav {
@@ -384,18 +384,8 @@ header .main .itemImg img {
   margin-top: 50px;
 }
 
-.blocks .items .item .img .creators img {
-  max-width: 500px;
-  height: auto;
-}
-
 .blocks .items .item .img .hodlers {
   transform: scale(1.5) translate(-10%, -16.25%);
-}
-
-.blocks .items .item .img .hodlers img {
-  max-width: 500px;
-  height: auto;
 }
 
 .achieve {
@@ -414,11 +404,6 @@ header .main .itemImg img {
   opacity: 0.7;
 }
 
-.achieve .paperPlane img {
-  max-width: 300px;
-  width: 100%;
-}
-
 .achieve .lineImg {
   margin-bottom: 50px;
 }
@@ -432,11 +417,6 @@ header .main .itemImg img {
   display: flex;
   gap: 146px;
   align-items: center;
-}
-
-.achieve .achieveLine .arrow img {
-  max-width: 32px;
-  width: 100%;
 }
 
 .achieve .achieveLine .date .month {
@@ -501,7 +481,6 @@ header .main .itemImg img {
 .tokens .items .rocket img {
   max-width: 700px;
   width: 100%;
-  height: auto;
 }
 
 .tokens .items .item1 {
@@ -534,10 +513,6 @@ header .main .itemImg img {
   width: 100%;
 }
 
-.tokens .items .item2 .clouds img {
-  width: 100%;
-}
-
 .sale {
   position: relative;
   margin-top: 450px;
@@ -556,12 +531,6 @@ header .main .itemImg img {
 
 .sale .buy p {
   margin: 5px 0px;
-}
-
-.sale .buy .text img {
-  max-width: 32px;
-  height: auto;
-  width: 100%;
 }
 
 .sale .title {
@@ -653,12 +622,6 @@ footer .footer {
   gap: 10px;
 }
 
-footer .footer .logo img {
-  max-width: 300px;
-  width: 100%;
-  height: auto;
-}
-
 footer .footer .copyright {
   color: white;
 }
@@ -667,12 +630,6 @@ footer .footer .social {
   display: flex;
   gap: 20px;
   align-items: center;
-}
-
-footer .footer .social img {
-  max-width: 64px;
-  width: 100%;
-  height: auto;
 }
 
 footer .footer .social .telegram {
